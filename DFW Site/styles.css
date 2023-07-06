@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(0, 149, 221);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+.list {
+    display: grid;
+    justify-content: right;
+    margin-left: 70%;
+    color: black;
+}
+
+.sites {
+    padding: 1px;
+    border: solid;
+    border-color: white;
+}
+
+.set-one, .set-two, .set-three, .set-four {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
