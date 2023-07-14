@@ -1,0 +1,111 @@
+
+body {
+    background-color: rgb(0, 149, 221);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    color: white;
+    font-size: 30px;
+    transition: 0.2s;
+}
+
+.container {
+    width: 100%;
+}
+
+.list {
+    display: grid;
+    color: black;
+    background-color: rgb(228, 238, 247);
+    border-radius: 4px;
+    justify-content: right;
+}
+
+#sites-header {
+    font-size: 30px;
+    display: grid;
+    justify-content: right;
+}
+
+
+#site-name {
+    font-size: 30px;
+    margin-left: 60%;
+    display: grid;
+    justify-content: right;
+}
+
+.sites {
+    font-size: 25px;
+    margin-left: 60%;
+    display: grid;
+    justify-content: right;
+}
+
+.set-one {
+    text-align: center;
+    margin: 40px;
+    display: flex;
+}
+
+.set-one, .set-two, .set-three, .set-four {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.cards .card-one {
+    width: 250px;
+    height: 350px;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    color: white;
+}
+.cards .card-two {
+    width: 250px;
+    height: 350px;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.cards .card-three {
+    width: 250px;
+    height: 350px;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-one:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005)
+    translate(0);
+}
+.card-two:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005)
+    translate(0);
+}
+.card-three:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005)
+    translate(0);
+}
