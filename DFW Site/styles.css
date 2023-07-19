@@ -1,4 +1,3 @@
-
 body {
     background-color: rgb(0, 149, 221);
 }
@@ -13,85 +12,117 @@ body {
 }
 
 .container {
+    display: grid;
     width: 100%;
+}
+
+#content {
+    display: grid;
+}
+
+.set-one {
+    display: grid;
+    text-align: center;
+    margin: 40px;
+    color: rgb(228, 238 , 247);
+    font-size: 50px;
 }
 
 .list {
     display: grid;
     color: black;
-    background-color: rgb(228, 238, 247);
+    background-color: rgb(228, 238 , 247);
     border-radius: 4px;
-    justify-content: right;
+    width: 100%;
+}
+
+#para-sect {
+    display: grid;
+}
+
+#site-para {
+    display: grid;
 }
 
 #sites-header {
-    font-size: 30px;
     display: grid;
     justify-content: right;
+    font-size: 30px;
 }
-
 
 #site-name {
-    font-size: 30px;
-    margin-left: 60%;
-    display: grid;
-    justify-content: right;
-}
-
-.sites {
     font-size: 25px;
     margin-left: 60%;
     display: grid;
     justify-content: right;
 }
 
-.set-one {
-    text-align: center;
-    margin: 40px;
-    display: flex;
+.sites {
+    display: grid;
+    font-size: 25px;
+    margin-left: 90%;
+    justify-content: right;
 }
 
-.set-one, .set-two, .set-three, .set-four {
+.sites:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.005)
+    translate(0);
+}
+
+.set-two {
+    display: flex;
+    align-items: center;
+}
+
+.set-two, .set-three, .set-four {
     color: white;
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.cards {
+    display: flex; 
+    justify-content: space-between;
+    transition: 0.2s;
 }
 
 .cards .card-one {
+    display: flex;
     width: 250px;
     height: 350px;
     margin: 20px 10px;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 3px;
     color: white;
-}
-.cards .card-two {
-    width: 250px;
-    height: 350px;
-    margin: 20px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-}
-.cards .card-three {
-    width: 250px;
-    height: 350px;
-    margin: 20px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
-    color: white;
+    font-size: 20px;
 }
 
-.cards {
+.cards .card-two {
     display: flex;
-    justify-content: space-between;
+    width: 250px;
+    height: 350px;
+    margin: 20px 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.cards .card-three {
+    display: flex;
+    width: 250px;
+    height: 350px;
+    margin: 20px 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
 }
 
 .card-one:hover {
@@ -99,11 +130,13 @@ p {
     transform: translateY(-5px) scale(1.005)
     translate(0);
 }
+
 .card-two:hover {
     cursor: pointer;
     transform: translateY(-5px) scale(1.005)
     translate(0);
 }
+
 .card-three:hover {
     cursor: pointer;
     transform: translateY(-5px) scale(1.005)
