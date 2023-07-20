@@ -34,10 +34,13 @@ body {
     background-color: rgb(228, 238 , 247);
     border-radius: 4px;
     width: 100%;
+    grid-template-columns: 90%;
 }
 
 #para-sect {
     display: grid;
+    grid-template-columns: 30%;
+    grid-row: 1 / span 4;
 }
 
 #site-para {
@@ -48,6 +51,7 @@ body {
     display: grid;
     justify-content: right;
     font-size: 30px;
+    grid-column-start: 2;
 }
 
 #site-name {
